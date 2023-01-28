@@ -1,0 +1,26 @@
+
+  <footer class="mt-auto text-white-50">
+    <div class="pb-3 small">
+      <div>Page rendered in {literal}{elapsed_time}{/literal} seconds</div>
+      <div>Environment: {ENVIRONMENT}</div>
+    </div>
+
+    <div>
+      <div>Developed by <a href="https://github.com/hadipramono" class="text-white">Hadi Pramono</a></div>
+      <div class="small">Powered by: <a href="https://codeigniter.com/" class="text-white" target="_blank">CodeIgniter</a>, <a href="https://www.smarty.net/" class="text-white" target="_blank">Smarty</a>, <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" class="text-white" target="_blank">jQuery</a></div>
+    </div>
+  </footer>
+</div>
+
+
+<script src="{base_url('assets/js/bootstrap.bundle.min.js')}"></script>
+<script src="{base_url('assets/js/jquery-3.6.3.min.js')}"></script>
+<script>
+  let bootstrap_version = bootstrap.Tooltip.VERSION
+  let jquery_version = jQuery.fn.jquery
+  $("#bootstrap_version").text(bootstrap_version);
+  $("#jquery_version").text(jquery_version);
+</script>
+
+  </body>
+</html>
